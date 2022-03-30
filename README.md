@@ -23,9 +23,17 @@ Zu ändern sind:
 ### Die einzelnen Blöcke der Lebenslaufs: class="cv"
 Von diesen Klassen kann und sollte es mehrere geben. Sinnvoll sind **Berufsleben**, **Engagement** und **Ausbildung**. Aber auch Hobbies und Fähigkeiten könnten hier stehen.
 * H1: Das ist die Überschrift des gesamten Blocks
-* H2: Das ist die Überschrift des jeweiligen Jobs. Die Firma steht zwischen den <span>-Tags
+* H2: Das ist die Überschrift des jeweiligen Jobs. Die Firma steht zwischen den span-Tags
 * class="time": Das ist die Verweildauer im Job.
 * class="note": Das sind Notizen dazu.
   
-Alle Blöcke können einfach ergänzt werden, indem die Bereiche von <div class="cvblock"> bis zum abschließenden </div> (Einrückungen beachten, dann kopiert es sich leichter) kopiert werden.
+Alle Blöcke können einfach ergänzt werden, indem die Bereiche von **div class="cvblock"** bis zum abschließenden **/div** (Einrückungen beachten, dann kopiert es sich leichter) kopiert werden.
+
+## Formatierungen
+Einfache Formatierungen können im CSS ab Zeile 50 vorgenommen werden. Die vermutlich spannendsten Anpassungen sind:
+* --col (Zeile 68): Textfarbe
+* --background (Zeile 71): Hintergrundfarbe
+* Schriftart der Überschriften: Zeilen 177 und 186
   
+## Einrichtung
+Es sind lediglich die cv.html und die cv.css in ein Verzeichnis auf dem Rechner zu kopieren. In dasselbe Verzeichnis kommt dann noch das Bild. Die cv.html kann von diesem Verzeichnis aus in jedem Browser geöffnet werden.
